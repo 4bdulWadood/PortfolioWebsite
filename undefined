@@ -1,0 +1,9 @@
+import DecorativeLines from '@/components/DecorativeLines';
+
+export default function Preview() {
+  return (
+    <div className="bg-black w-full h-full flex items-center justify-center">
+      <DecorativeLines />
+    </div>
+  );
+}
