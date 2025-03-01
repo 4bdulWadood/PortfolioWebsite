@@ -9,74 +9,74 @@ export default function Portfolio() {
       <div className="min-h-screen grid lg:grid-cols-[minmax(300px,1fr)_minmax(400px,2fr)_minmax(300px,1fr)] grid-cols-1 lg:divide-x-2 divide-y-2 lg:divide-y-0 divide-white/20 relative">
         {/* Left Section */}
         <div className="p-8 laptop:p-3 flex flex-col justify-center min-h-screen space-y-6 laptop:space-y-2 overflow-y-auto order-2 lg:order-1">
-          <div className="space-y-4 laptop:space-y-1 max-h-[calc(100vh-12rem)] overflow-y-auto scrollbar-thin scrollbar-track-black scrollbar-thumb-gray-800">
-            <h2
-              className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
-              style={{ backgroundSize: "200% 100%", backgroundPosition: "0 0" }}
-            >
-              ABOUT ME
-            </h2>
-            <p className="text-gray-300 text-base laptop:text-[10px]">
-              Hello, welcome to my{" "}
-              <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                portfolio website!
-              </span>
-            </p>
-            <p className="text-gray-300 text-base laptop:text-[10px]">
-              My name is{" "}
-              <span className="text-white font-medium">Syed Abdul Wadood</span>{" "}
-              and I am a final year{" "}
-              <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                Computer Engineering
-              </span>{" "}
-              student at{" "}
-              <span className="text-white">
-                Toronto Metropolitan University
-              </span>
-              . When I am not learning new technologies and frameworks, you can
-              find me in the gym, watching football, or quoting movies - about{" "}
-              <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                50% of my personality
-              </span>{" "}
-              is movie references.
-            </p>
+        <div className="space-y-4 laptop:space-y-1 max-h-[calc(100vh-12rem)] overflow-y-hidden scrollbar-thin scrollbar-track-black scrollbar-thumb-gray-800">
+  <h2
+    className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
+    style={{ backgroundSize: "200% 100%", backgroundPosition: "0 0" }}
+  >
+    ABOUT ME
+  </h2>
+  <p className="text-gray-300 text-base laptop:text-[10px]">
+    Hello, welcome to my{" "}
+    <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+      portfolio website!
+    </span>
+  </p>
+  <p className="text-gray-300 text-base laptop:text-[10px]">
+    My name is{" "}
+    <span className="text-white font-medium">Syed Abdul Wadood</span>{" "}
+    and I am a final year{" "}
+    <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+      Computer Engineering
+    </span>{" "}
+    student at{" "}
+    <span className="text-white">
+      Toronto Metropolitan University
+    </span>
+    . When I am not learning new technologies and frameworks, you can
+    find me in the gym, watching football, or quoting movies - about{" "}
+    <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+      50% of my personality
+    </span>{" "}
+    is movie references.
+  </p>
 
-            {/* This paragraph will be hidden below 2000px */}
-            <div className="hidden 2xl:block">
-              <p className="text-gray-300 text-base laptop:text-[10px]">
-                I am a detail-oriented and driven Computer Engineering student
-                with hands-on experience in{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  software development
-                </span>
-                ,{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  DevOps
-                </span>
-                , and{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  cloud computing
-                </span>
-                . Through multiple internships at IBM and three early-stage
-                startups, I have built and optimized web applications, automated
-                deployments, and enhanced system efficiency. My ability to work
-                across{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  full-stack development
-                </span>
-                ,{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  automation
-                </span>
-                , and{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  infrastructure management
-                </span>{" "}
-                allows me to adapt quickly to new challenges and contribute
-                effectively to any team.
-              </p>
-            </div>
-          </div>
+  <div>
+    <p className="text-gray-300 text-base laptop:text-[10px]">
+      I am a detail-oriented and driven Computer Engineering student
+      with hands-on experience in{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        software development
+      </span>
+      ,{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        DevOps
+      </span>
+      , and{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        cloud computing
+      </span>
+      . Through multiple internships at IBM and three early-stage
+      startups, I have built and optimized web applications, automated
+      deployments, and enhanced system efficiency. My ability to work
+      across{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        full-stack development
+      </span>
+      ,{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        automation
+      </span>
+      , and{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        infrastructure management
+      </span>{" "}
+      allows me to adapt quickly to new challenges and contribute
+      effectively to any team.
+    </p>
+  </div>
+</div>
+
 
           <hr className="border-white/20 border-t-2" />
 
@@ -176,15 +176,19 @@ export default function Portfolio() {
         {/* Center Section */}
         <div className="p-8 laptop:p-4 flex items-center justify-center min-h-screen order-1">
           <div className="space-y-6 laptop:space-y-4">
-            <div className="mt-16 laptop:mt-4">
+            <div className="laptop:mt-4">
               <div className="flex justify-center">
-                <div className="relative w-72 h-72 laptop:w-52 laptop:h-52 bg-purple-500 rounded-full overflow-hidden shadow-[0_0_150px_rgba(122,25,211,0.8)] z-10 flex items-center justify-center">
-                  <img
-                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=male25&backgroundColor=8A2BE2&hairColor=000000&facialHairType=beardLight&facialHairColor=000000&top=shortHairShortFlat&topColor=000000&accessories=none&clothesColor=8A2BE2&eyes=default&eyebrows=default&mouth=default&skin=light"
-                    alt="Profile"
-                    className="w-full h-full object-cover rounded-full"
-                  />
-                </div>
+              <div className="relative w-72 h-72 laptop:w-52 laptop:h-52 rounded-full overflow-hidden shadow-[0_0_150px_rgba(122,25,211,0.8)] z-10 flex items-center justify-center">
+              {/* Blue/Purple Hue Overlay (Outer Circle) */}
+              <div className="absolute bg-[radial-gradient(circle,#4B0082_10%,#6A0DAD_100%,#8B5CF6_60%)] mix-blend-multiply"></div>
+
+              {/* Profile Image */}
+              <img
+                src="images/avatar1_inPixio.png"
+                alt="Profile"
+                className="w-[120%] h-[125%] object-cover rounded-full mix-blend-screen"
+              />
+            </div>
               </div>
             </div>
             <div className="text-center flex flex-col h-[400px] laptop:h-[220px] pt-12 laptop:pt-2">
@@ -317,29 +321,59 @@ export default function Portfolio() {
                 className="bg-[#0a192f] p-6 laptop:p-3 rounded-lg flex items-center justify-center aspect-square transform-gpu transition-transform duration-500 hover:rotate-y-12 hover:rotate-x-12 hover:scale-105 group relative cursor-pointer"
                 style={{ transformStyle: "preserve-3d" }}
               >
+                              <a
+                href="https://www.lab2client.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <span className="text-lg laptop:text-sm font-medium transform-gpu translate-z-12">
-                  Lab2Client
+                    <img
+                    src="/images/Lab2Client.png"
+                    alt="L2C Image"
+                    className="w-[120%] h-[125%] object-cover rounded-full mix-blend-screen"
+                  />
                 </span>
+                </a>
               </div>
-              <div
-                className="bg-[#006d77] p-6 laptop:p-3 rounded-lg flex items-center justify-center aspect-square transform-gpu transition-transform duration-500 hover:rotate-y-12 hover:rotate-x-12 hover:scale-105 group relative cursor-pointer"
-                style={{ transformStyle: "preserve-3d" }}
-              >
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-cyan-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="w-8 h-8 laptop:w-5 laptop:h-5 bg-white transform-gpu translate-z-12"></div>
-              </div>
-              <div
-                className="bg-white p-4 laptop:p-2 rounded-lg flex items-center justify-center aspect-[2/1] col-span-2 transform-gpu transition-transform duration-500 hover:rotate-y-6 hover:rotate-x-6 hover:scale-105 group relative cursor-pointer"
-                style={{ transformStyle: "preserve-3d" }}
+              <a
+  href="https://andie.work/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block"  // Makes the anchor tag take up the full space of the div
+>
+  <div
+    className="bg-white p-6 laptop:p-3 rounded-lg flex items-center justify-center aspect-square transform-gpu transition-transform duration-500 hover:rotate-y-12 hover:rotate-x-12 hover:scale-105 group relative cursor-pointer"
+    style={{ transformStyle: "preserve-3d" }}
+  >
+    <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-white-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    <span className="text-lg laptop:text-sm font-medium transform-gpu translate-z-12">
+      <img
+        src="/images/andie.work.png"
+        alt="L2C Image"
+        className="w-[120%] h-[125%] object-cover rounded-full mix-blend-screen"
+      />
+    </span>
+  </div>
+</a>
+
+            <div
+              className="bg-white laptop:p-2 rounded-lg flex items-center justify-center aspect-[2/1] col-span-2 transform-gpu transition-transform duration-500 hover:rotate-y-6 hover:rotate-x-6 hover:scale-105 group relative cursor-pointer overflow-hidden"
+              style={{ transformStyle: "preserve-3d" }}
+            >
+              <a
+                href="https://huggingface.co/blog/huggingface-and-ibm"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img
-                  src="/images/tempo-image-20250121T052557697Z.png"
+                  src="/images/IBM_IMAGE.jpg"
                   alt="IBM"
-                  className="h-8 laptop:h-5 transform-gpu translate-z-12"
+                  className="w-full h-full object-cover transform-gpu translate-z-12"
                 />
-              </div>
+            </a>
+            </div>
             </div>
           </div>
         </div>
