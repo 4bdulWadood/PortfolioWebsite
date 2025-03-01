@@ -58,21 +58,7 @@ export default function Portfolio() {
       </span>
       . Through multiple internships at IBM and three early-stage
       startups, I have built and optimized web applications, automated
-      deployments, and enhanced system efficiency. My ability to work
-      across{" "}
-      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-        full-stack development
-      </span>
-      ,{" "}
-      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-        automation
-      </span>
-      , and{" "}
-      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-        infrastructure management
-      </span>{" "}
-      allows me to adapt quickly to new challenges and contribute
-      effectively to any team.
+      deployments, and enhanced system efficiency.
     </p>
   </div>
 </div>
