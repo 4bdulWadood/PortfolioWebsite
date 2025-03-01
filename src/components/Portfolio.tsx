@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className="min-h-screen grid lg:grid-cols-[minmax(300px,1fr)_minmax(400px,2fr)_minmax(300px,1fr)] grid-cols-1 lg:divide-x-2 divide-y-2 lg:divide-y-0 divide-white/20 relative">
         {/* Left Section */}
         <div className="p-8 laptop:p-3 flex flex-col justify-center min-h-screen space-y-6 laptop:space-y-2 overflow-y-auto order-2 lg:order-1">
-        <div className="space-y-4 laptop:space-y-1 max-h-[calc(100vh-12rem)] overflow-y-hidden scrollbar-thin scrollbar-track-black scrollbar-thumb-gray-800">
+        <div className="space-y-4 laptop:space-y-1 max-h-[calc(100vh-12rem)] overflow-y-auto scrollbar-thin scrollbar-track-black scrollbar-thumb-gray-800">
   <h2
     className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
     style={{ backgroundSize: "200% 100%", backgroundPosition: "0 0" }}
@@ -76,6 +76,7 @@ export default function Portfolio() {
     </p>
   </div>
 </div>
+
 
 
           <hr className="border-white/20 border-t-2" />
