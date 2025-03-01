@@ -4,19 +4,40 @@ export default function CustomCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isPointer, setIsPointer] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
+  const [isMobile, setIsMobile] = useState(false); // Track if mobile view
 
   useEffect(() => {
+    // Function to check if the window is mobile
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Example for mobile (<= 768px)
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Update on resize
+    window.addEventListener("resize", checkMobile);
+
     const onMouseMove = (e: MouseEvent) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+      if (!isMobile) {
+        setPosition({ x: e.clientX, y: e.clientY });
+      }
     };
 
     const onMouseOver = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      setIsPointer(window.getComputedStyle(target).cursor === "pointer");
+      if (!isMobile) {
+        const target = e.target as HTMLElement;
+        setIsPointer(window.getComputedStyle(target).cursor === "pointer");
+      }
     };
 
-    const onMouseDown = () => setIsClicked(true);
-    const onMouseUp = () => setIsClicked(false);
+    const onMouseDown = () => {
+      if (!isMobile) setIsClicked(true);
+    };
+    
+    const onMouseUp = () => {
+      if (!isMobile) setIsClicked(false);
+    };
 
     window.addEventListener("mousemove", onMouseMove);
     window.addEventListener("mouseover", onMouseOver);
@@ -24,20 +45,23 @@ export default function CustomCursor() {
     window.addEventListener("mouseup", onMouseUp);
 
     return () => {
+      window.removeEventListener("resize", checkMobile);
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("mouseover", onMouseOver);
       window.removeEventListener("mousedown", onMouseDown);
       window.removeEventListener("mouseup", onMouseUp);
     };
-  }, []);
+  }, [isMobile]);
 
   return (
     <>
-      <style>
-        {`
-          * { cursor: none !important; }
-        `}
-      </style>
+      {!isMobile && (
+        <style>
+          {`
+            * { cursor: none !important; }
+          `}
+        </style>
+      )}
       {/* Dot */}
       <div
         className="fixed pointer-events-none z-50"

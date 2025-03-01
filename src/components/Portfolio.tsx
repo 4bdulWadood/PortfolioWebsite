@@ -9,74 +9,74 @@ export default function Portfolio() {
       <div className="min-h-screen grid lg:grid-cols-[minmax(300px,1fr)_minmax(400px,2fr)_minmax(300px,1fr)] grid-cols-1 lg:divide-x-2 divide-y-2 lg:divide-y-0 divide-white/20 relative">
         {/* Left Section */}
         <div className="p-8 laptop:p-3 flex flex-col justify-center min-h-screen space-y-6 laptop:space-y-2 overflow-y-auto order-2 lg:order-1">
-          <div className="space-y-4 laptop:space-y-1 max-h-[calc(100vh-12rem)] overflow-y-auto scrollbar-thin scrollbar-track-black scrollbar-thumb-gray-800">
-            <h2
-              className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
-              style={{ backgroundSize: "200% 100%", backgroundPosition: "0 0" }}
-            >
-              ABOUT ME
-            </h2>
-            <p className="text-gray-300 text-base laptop:text-[10px]">
-              Hello, welcome to my{" "}
-              <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                portfolio website!
-              </span>
-            </p>
-            <p className="text-gray-300 text-base laptop:text-[10px]">
-              My name is{" "}
-              <span className="text-white font-medium">Syed Abdul Wadood</span>{" "}
-              and I am a final year{" "}
-              <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                Computer Engineering
-              </span>{" "}
-              student at{" "}
-              <span className="text-white">
-                Toronto Metropolitan University
-              </span>
-              . When I am not learning new technologies and frameworks, you can
-              find me in the gym, watching football, or quoting movies - about{" "}
-              <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                50% of my personality
-              </span>{" "}
-              is movie references.
-            </p>
+        <div className="space-y-4 laptop:space-y-1 max-h-[calc(100vh-12rem)] overflow-y-hidden scrollbar-thin scrollbar-track-black scrollbar-thumb-gray-800">
+  <h2
+    className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
+    style={{ backgroundSize: "200% 100%", backgroundPosition: "0 0" }}
+  >
+    ABOUT ME
+  </h2>
+  <p className="text-gray-300 text-base laptop:text-[10px]">
+    Hello, welcome to my{" "}
+    <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+      portfolio website!
+    </span>
+  </p>
+  <p className="text-gray-300 text-base laptop:text-[10px]">
+    My name is{" "}
+    <span className="text-white font-medium">Syed Abdul Wadood</span>{" "}
+    and I am a final year{" "}
+    <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+      Computer Engineering
+    </span>{" "}
+    student at{" "}
+    <span className="text-white">
+      Toronto Metropolitan University
+    </span>
+    . When I am not learning new technologies and frameworks, you can
+    find me in the gym, watching football, or quoting movies - about{" "}
+    <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+      50% of my personality
+    </span>{" "}
+    is movie references.
+  </p>
 
-            {/* This paragraph will be hidden below 2000px */}
-            <div>
-              <p className="text-gray-300 text-base laptop:text-[10px]">
-                I am a detail-oriented and driven Computer Engineering student
-                with hands-on experience in{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  software development
-                </span>
-                ,{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  DevOps
-                </span>
-                , and{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  cloud computing
-                </span>
-                . Through multiple internships at IBM and three early-stage
-                startups, I have built and optimized web applications, automated
-                deployments, and enhanced system efficiency. My ability to work
-                across{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  full-stack development
-                </span>
-                ,{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  automation
-                </span>
-                , and{" "}
-                <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
-                  infrastructure management
-                </span>{" "}
-                allows me to adapt quickly to new challenges and contribute
-                effectively to any team.
-              </p>
-            </div>
-          </div>
+  <div>
+    <p className="text-gray-300 text-base laptop:text-[10px]">
+      I am a detail-oriented and driven Computer Engineering student
+      with hands-on experience in{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        software development
+      </span>
+      ,{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        DevOps
+      </span>
+      , and{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        cloud computing
+      </span>
+      . Through multiple internships at IBM and three early-stage
+      startups, I have built and optimized web applications, automated
+      deployments, and enhanced system efficiency. My ability to work
+      across{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        full-stack development
+      </span>
+      ,{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        automation
+      </span>
+      , and{" "}
+      <span className="bg-gradient-to-r from-[#AB1CDE] to-[#715DFC] bg-clip-text text-transparent font-bold">
+        infrastructure management
+      </span>{" "}
+      allows me to adapt quickly to new challenges and contribute
+      effectively to any team.
+    </p>
+  </div>
+</div>
+
 
           <hr className="border-white/20 border-t-2" />
 
