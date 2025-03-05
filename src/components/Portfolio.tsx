@@ -287,7 +287,7 @@ export default function Portfolio() {
           <div className="bg-[#171717] p-8 laptop:p-2 rounded-lg space-y-4 laptop:space-y-2 flex flex-col items-center relative">
               
               <h2
-                className="text-[36px] bottom-2 laptop:text-base font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full relative z-10 tracking-wide"
+                className="text-[24px] sm:text-[23px] md:text-[30px] bottom-2 laptop:text-base font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full relative z-10 tracking-wide"
                 style={{
                   backgroundSize: "200% 100%",
                   backgroundPosition: "0 0",
