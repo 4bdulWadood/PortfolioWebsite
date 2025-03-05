@@ -284,9 +284,10 @@ export default function Portfolio() {
         {/* Right Section */}
         <div className="p-8 laptop:p-3 flex flex-col items-center justify-center min-h-screen overflow-y-auto order-3 lg:order-3">
           <div className="space-y-6 laptop:space-y-3 ">
-            <div className="bg-[#1F1F1F] p-4 laptop:p-2 rounded-lg space-y-4 laptop:space-y-2 flex flex-col items-center ">
+          <div className="bg-[#171717] p-8 laptop:p-2 rounded-lg space-y-4 laptop:space-y-2 flex flex-col items-center relative">
+              
               <h2
-                className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
+                className="text-[36px] bottom-2 laptop:text-base font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full relative z-10 tracking-wide"
                 style={{
                   backgroundSize: "200% 100%",
                   backgroundPosition: "0 0",
@@ -294,8 +295,11 @@ export default function Portfolio() {
               >
                 CORE COMPETENCIES
               </h2>
-
-              <div className="grid grid-cols-2 gap-3 laptop:gap-1 w-full max-w-md mx-auto">
+              
+              {/* Background behind competency circles */}
+              <div className="absolute bottom-6 w-11/12 bg-black rounded-lg z-0 flex items-center justify-center"></div>
+              
+              <div className="grid grid-cols-4 gap-4 w-full max-w-lg mx-auto relative z-10 justify-center items-center text-center">
                 <CoreCompetency label="Design" percentage={60} />
                 <CoreCompetency label="Fullstack" percentage={75} />
                 <CoreCompetency label="Cloud" percentage={75} />
