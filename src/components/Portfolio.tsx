@@ -282,9 +282,9 @@ export default function Portfolio() {
         </div>
 
         {/* Right Section */}
-        <div className="p-8 laptop:p-3 flex flex-col justify-start min-h-screen overflow-y-auto order-3 lg:order-3">
-          <div className="space-y-6 laptop:space-y-3">
-            <div className="bg-[#1F1F1F] p-4 laptop:p-2 rounded-lg space-y-4 laptop:space-y-2 flex flex-col items-center">
+        <div className="p-8 laptop:p-3 flex flex-col items-center justify-center min-h-screen overflow-y-auto order-3 lg:order-3">
+          <div className="space-y-6 laptop:space-y-3 ">
+            <div className="bg-[#1F1F1F] p-4 laptop:p-2 rounded-lg space-y-4 laptop:space-y-2 flex flex-col items-center ">
               <h2
                 className="text-[36px] laptop:text-lg font-bold text-center bg-gradient-to-r from-[#7A19D3] via-[#F1810B] to-[#FF00B9] bg-clip-text text-transparent w-full"
                 style={{
@@ -323,12 +323,12 @@ export default function Portfolio() {
                 </span>
                 </a>
               </div>
-              <a
-  href="https://andie.work/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="block"  // Makes the anchor tag take up the full space of the div
->
+                          <a
+              href="https://andie.work/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"  // Makes the anchor tag take up the full space of the div
+            >
   <div
     className="bg-white p-6 laptop:p-3 rounded-lg flex items-center justify-center aspect-square transform-gpu transition-transform duration-500 hover:rotate-y-12 hover:rotate-x-12 hover:scale-105 group relative cursor-pointer"
     style={{ transformStyle: "preserve-3d" }}
