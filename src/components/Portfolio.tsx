@@ -300,7 +300,7 @@ export default function Portfolio() {
               <div className="absolute bottom-6 w-11/12 bg-black rounded-lg z-0 flex items-center justify-center"></div>
               
               <div className="grid grid-cols-4 gap-4 w-full max-w-lg mx-auto relative z-10 justify-center items-center text-center">
-                <CoreCompetency label="Design" percentage={60} />
+                <CoreCompetency label="SDET" percentage={90} />
                 <CoreCompetency label="Fullstack" percentage={75} />
                 <CoreCompetency label="Cloud" percentage={75} />
                 <CoreCompetency label="DevOps" percentage={70} />
