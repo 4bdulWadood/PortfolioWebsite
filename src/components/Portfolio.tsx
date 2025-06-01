@@ -233,7 +233,7 @@ export default function Portfolio() {
                   </svg>
                 </a>
                 <a
-                  href="https://bronze-demeter-95.tiiny.site/?mode=suggestions"
+                  href="coffee-mab-63.tiiny.site"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 laptop:w-7 laptop:h-7 rounded-full flex items-center justify-center relative group cursor-pointer"
